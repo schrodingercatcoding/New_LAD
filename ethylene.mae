@@ -1,0 +1,50 @@
+{ 
+ s_m_m2io_version
+ :::
+ 2.0.0 
+} 
+
+f_m_ct { 
+ s_m_title
+ s_m_entry_id
+ s_m_entry_name
+ i_m_ct_format
+ :::
+ ethylene 
+  1662 
+  entry 
+  2
+ m_atom[6] { 
+  # First column is atom index #
+  i_m_mmod_type
+  r_m_x_coord
+  r_m_y_coord
+  r_m_z_coord
+  i_m_residue_number
+  i_m_color
+  i_m_atomic_number
+  s_m_color_rgb
+  :::
+  1 2 -0.187118 0.627224 -0.208072 900 2 6 A0A0A0 
+  2 2 0.594411 -0.074521 0.625011 900 2 6 A0A0A0 
+  3 41 -0.938121 1.305392 0.170216 900 21 1 FFFFFF 
+  4 41 -0.086370 0.532928 -1.279509 900 21 1 FFFFFF 
+  5 41 1.345414 -0.752690 0.246723 900 21 1 FFFFFF 
+  6 41 0.493663 0.019774 1.696448 900 21 1 FFFFFF 
+  :::
+ } 
+ m_bond[5] { 
+  # First column is bond index #
+  i_m_from
+  i_m_to
+  i_m_order
+  :::
+  1 1 2 2
+  2 1 3 1
+  3 1 4 1
+  4 2 5 1
+  5 2 6 1
+  :::
+ } 
+} 
+
